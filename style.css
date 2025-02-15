@@ -1,0 +1,159 @@
+body {
+    font-family: 'Cinzel Decorative', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #191414; 
+    color: #333; 
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2b272a; 
+    color: #fafbee; 
+  }
+  
+  header .logo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li a:hover {
+    color: white;
+  }
+
+  .artist {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #dc1443; 
+    color: #000000; 
+  }
+  
+  .artist h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .artist p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    color:#000000;
+  }
+  
+  .artist img {
+    width: 200px;
+    border-radius: 20%; 
+    border: 5px solid #000000; 
+  }
+  
+
+  .songs {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .songs h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #000000; 
+  }
+  
+  .songs ol {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .songs ol li {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffffff; 
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b272a; 
+
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: #fafbee; 
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  footer ul li a {
+    font-size: 14px;
+    color: #fafbee; 
+  }
+  
+  footer ul li a:hover {
+    color: #fafbee; 
+  }
+
+.songs {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .songs h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #000000; /* Green for headings */
+  }
+  
+  .song-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .song h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000; 
+  }
+  
+  .song p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #000000; 
+  }
+  main{
+    background-color: #656b71;
+  }
